@@ -6,6 +6,11 @@ This project is a **Festival Management System** designed to facilitate the orga
 
 ## Database Structure
 
+### Database Schema
+
+![Alt text](./database-schema.svg)
+<img src="./database-schema.svg">
+
 ### Entities and Their Roles:
 
 1. **Festivals**:
