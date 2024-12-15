@@ -92,11 +92,4 @@ This project is a **Festival Management System** designed to facilitate the orga
    - Evaluate the quality of bars and beers using visitor reviews.
    - Assess festival success through aggregated visitor ratings.
 
----
-
-## Possible Extensions:
-- **Ticketing System**: Manage visitor ticket purchases.
-- **Sponsorship Management**: Track sponsors for festivals.
-- **Real-time Analytics**: Provide insights into visitor behavior and feedback during events.
-
 This system provides a robust foundation for managing festivals, their associated resources, and visitor experiences.
