@@ -6,11 +6,13 @@ This project is a **Festival Management System** designed to facilitate the orga
 
 ## Database Structure
 
+The following database is in the 3NF form, because each field holds a single value (1NF) it has no cross table dependencies (2NF) and no cross field dependencies (3NF).
+
 ### Database Schema
 
 <img src="./database-schema.svg">
 
-### Entities and Their Roles:
+### Entities and Their Roles
 
 1. **Festivals**:
    - Represents various festivals occurring in different cities.
@@ -72,7 +74,7 @@ This project is a **Festival Management System** designed to facilitate the orga
 
 ---
 
-## Key Use Cases:
+## Key Use Cases
 
 1. **Event Management**:
    - Organize festivals with associated bars and beers.
