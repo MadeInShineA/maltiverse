@@ -90,7 +90,7 @@ ALTER TABLE `relation_bar_festival` ADD FOREIGN KEY (`bar_id`) REFERENCES `bars`
 
 ALTER TABLE `relation_bar_festival` ADD FOREIGN KEY (`festival_id`) REFERENCES `festivals` (`id`);
 
-ALTER TABLE `beer_brands` ADD FOREIGN KEY (`id`) REFERENCES `beers` (`brand_id`);
+ALTER TABLE `beer` ADD FOREIGN KEY (`brand_id`) REFERENCES `beer_brands` (`id`);
 
 ALTER TABLE `visitor_bar_reviews` ADD FOREIGN KEY (`bar_id`) REFERENCES `bars` (`id`);
 
@@ -98,7 +98,7 @@ ALTER TABLE `visitor_bar_reviews` ADD FOREIGN KEY (`visitor_id`) REFERENCES `vis
 
 ALTER TABLE `relation_beer_bar` ADD FOREIGN KEY (`bar_id`) REFERENCES `bars` (`id`);
 
-ALTER TABLE `beers` ADD FOREIGN KEY (`id`) REFERENCES `relation_beer_bar` (`beer_id`);
+ALTER TABLE `relation_beer_bar` ADD FOREIGN KEY (`beer_id`) REFERENCES `beers` (`id`);
 
 ALTER TABLE `beers` ADD FOREIGN KEY (`type_id`) REFERENCES `beer_types` (`id`);
 
