@@ -1,16 +1,13 @@
-/*Quels festivals se déroulent dans une ville spécifique ?*/
+/*Which festivals take place in a specific city?*/
 
 
-/*Quel est le visiteur ayant écrit le plus d'avis sur les bières ?*/
+/*Which visitor has written the most reviews about beers?*/
 
 
-/*Quels types de bières ont une moyenne d'alcool supérieure à 5% ?*/
+/*Which types of beers have an average alcohol content higher than 5%?*/
 
 
-/*Quels sont les bars ayant une note moyenne supérieure à 4 ?*/
+/*Which bars have an average rating higher than 4?*/
 
 
-/*Quels sont les bars ayant une note moyenne supérieure à 4 ?*/
-
-
-/*Quel est la bière avec le meilleur avis ?*/
+/*Which beer has the best review?*/
